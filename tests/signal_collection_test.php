@@ -38,7 +38,7 @@ class ezcSignalCollectionTest extends ezcTestCase
     private $giver;
     private $receiver;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->giver = new TheGiver();
         $this->receiver = new TheReceiver();
@@ -281,7 +281,7 @@ class ezcSignalCollectionTest extends ezcTestCase
 
     public static function suite()
     {
-         return new PHPUnit_Framework_TestSuite( "ezcSignalCollectionTest" );
+         return new \PHPUnit\Framework\TestSuite( "ezcSignalCollectionTest" );
     }
 }
 ?>

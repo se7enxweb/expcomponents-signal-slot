@@ -36,7 +36,7 @@ class ezcSignalStaticConnectionsTest extends ezcTestCase
     private $giver;
     private $receiver;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->giver = new TheGiver();
         $this->receiver = new TheReceiver();
@@ -44,7 +44,7 @@ class ezcSignalStaticConnectionsTest extends ezcTestCase
         TheReceiver::$staticFunctionRun = false;
     }
 
-    function tearDown()
+    function tearDown(): void
     {
         ezcSignalStaticConnections::getInstance()->connections = array();
     }
@@ -231,7 +231,7 @@ class ezcSignalStaticConnectionsTest extends ezcTestCase
 
     public static function suite()
     {
-         return new PHPUnit_Framework_TestSuite( "ezcSignalStaticConnectionsTest" );
+         return new \PHPUnit\Framework\TestSuite( "ezcSignalStaticConnectionsTest" );
     }
 }
 ?>

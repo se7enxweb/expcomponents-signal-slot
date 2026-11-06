@@ -71,7 +71,7 @@ class ezcSignalStaticConnectionsBaseTest extends ezcTestCase
 
     public static function suite()
     {
-         return new PHPUnit_Framework_TestSuite( "ezcSignalStaticConnectionsBaseTest" );
+         return new \PHPUnit\Framework\TestSuite( "ezcSignalStaticConnectionsBaseTest" );
     }
 }
 ?>
