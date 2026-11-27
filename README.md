@@ -2,7 +2,7 @@
 
 The SignalSlot component implements a mechanism for inter and intra object communication through the use of signals and slots.
 
-This is the Exponential fork of [zetacomponents/SignalSlot](https://github.com/zetacomponents/SignalSlot),
+This is the Exponential Components fork of [zetacomponents/SignalSlot](https://github.com/zetacomponents/SignalSlot),
 maintained by 7x (se7en.x) and the Exponential Foundation for Exponential and anyone else
 who uses the Zeta Components SignalSlot component on current PHP versions. All credit for the
 component goes to the Zeta Components authors listed in `composer.json` and `CREDITS`;
